@@ -9,28 +9,28 @@
     "image" : "이미지"
   },
   {
-    "id": 1,
-    "title": "OpenWeather api 오늘의 날씨",
+    "id": 2,
+    "title": "222",
     "description": "OpenWeather api를 이용한 오늘의 날씨와 기온별 옷차림 추천 페이지",
-    "tags": ["html", "css", "JavaScript", "OpenWeather api", "Illustrator", "Figma"],
+    "tags": ["html", "css", "JavaScript", "Illustrator", "Figma"],
     "git": "https://github.com/dpwl35/weather",
     "demo": "https://funny-salmiakki-15a0f6.netlify.app/",
     "image" : "이미지"
   },
   {
-    "id": 1,
-    "title": "OpenWeather api 오늘의 날씨",
+    "id": 3,
+    "title": "333",
     "description": "OpenWeather api를 이용한 오늘의 날씨와 기온별 옷차림 추천 페이지",
-    "tags": ["html", "css", "JavaScript", "OpenWeather api", "Illustrator", "Figma"],
+    "tags": ["html", "css",  "Illustrator", "Figma"],
     "git": "https://github.com/dpwl35/weather",
     "demo": "https://funny-salmiakki-15a0f6.netlify.app/",
     "image" : "이미지"
   },
   {
-    "id": 1,
-    "title": "OpenWeather api 오늘의 날씨",
+    "id": 4,
+    "title": "444",
     "description": "OpenWeather api를 이용한 오늘의 날씨와 기온별 옷차림 추천 페이지",
-    "tags": ["html", "css", "JavaScript", "OpenWeather api", "Illustrator", "Figma"],
+    "tags": ["html", "css", "JavaScript"],
     "git": "https://github.com/dpwl35/weather",
     "demo": "https://funny-salmiakki-15a0f6.netlify.app/",
     "image" : "이미지"
