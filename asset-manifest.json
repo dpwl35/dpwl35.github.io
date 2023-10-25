@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.5cff6017.css",
-    "main.js": "/static/js/main.d02ab125.js",
-    "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
+    "main.css": "/static/css/main.f1cb1da0.css",
+    "main.js": "/static/js/main.0c0e1c74.js",
+    "static/media/LibreFranklin-Medium.ttf": "/static/media/LibreFranklin-Medium.713a2f7a5993dd85cac9.ttf",
+    "static/media/LibreFranklin-Black.ttf": "/static/media/LibreFranklin-Black.85623b5ef689bdf672cf.ttf",
+    "static/media/COOPERATION.png": "/static/media/COOPERATION.f7c44d1c83021d8c39c7.png",
     "index.html": "/index.html",
-    "main.5cff6017.css.map": "/static/css/main.5cff6017.css.map",
-    "main.d02ab125.js.map": "/static/js/main.d02ab125.js.map",
-    "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
+    "main.f1cb1da0.css.map": "/static/css/main.f1cb1da0.css.map",
+    "main.0c0e1c74.js.map": "/static/js/main.0c0e1c74.js.map"
   },
   "entrypoints": [
-    "static/css/main.5cff6017.css",
-    "static/js/main.d02ab125.js"
+    "static/css/main.f1cb1da0.css",
+    "static/js/main.0c0e1c74.js"
   ]
 }
