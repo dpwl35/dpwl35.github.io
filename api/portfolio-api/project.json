@@ -1,38 +1,42 @@
 [
   {
-    "id": 1,
+    "id": 0,
     "title": "OpenWeather api 오늘의 날씨",
     "description": "OpenWeather api를 이용한 오늘의 날씨와 기온별 옷차림 추천 페이지",
     "tags": ["html", "css", "JavaScript", "OpenWeather api", "Illustrator", "Figma"],
     "git": "https://github.com/dpwl35/weather",
     "demo": "https://funny-salmiakki-15a0f6.netlify.app/",
-    "image" : "이미지"
+    "blog" : "https://ji35.tistory.com/93",
+    "image" : "https://dpwl35.github.io/api/portfolio-img/img_01.png"
   },
   {
-    "id": 2,
-    "title": "222",
-    "description": "OpenWeather api를 이용한 오늘의 날씨와 기온별 옷차림 추천 페이지",
+    "id": 1,
+    "title": "Portfolio",
+    "description": "React.js를 이용한 포트폴리오",
     "tags": ["html", "css", "JavaScript", "Illustrator", "Figma"],
     "git": "https://github.com/dpwl35/weather",
     "demo": "https://funny-salmiakki-15a0f6.netlify.app/",
-    "image" : "이미지"
+    "blog" : "https://ji35.tistory.com/109",
+    "image" : "https://dpwl35.github.io/api/portfolio-img/img_01.png"
   },
   {
-    "id": 3,
-    "title": "333",
-    "description": "OpenWeather api를 이용한 오늘의 날씨와 기온별 옷차림 추천 페이지",
+    "id": 2,
+    "title": "프로젝트2",
+    "description": "프로젝트2",
     "tags": ["html", "css",  "Illustrator", "Figma"],
     "git": "https://github.com/dpwl35/weather",
     "demo": "https://funny-salmiakki-15a0f6.netlify.app/",
-    "image" : "이미지"
+    "blog" : "https://ji35.tistory.com/",
+    "image" : "https://dpwl35.github.io/api/portfolio-img/img_01.png"
   },
   {
-    "id": 4,
-    "title": "444",
-    "description": "OpenWeather api를 이용한 오늘의 날씨와 기온별 옷차림 추천 페이지",
+    "id": 3,
+    "title": "프로젝트4",
+    "description": "프로젝트3",
     "tags": ["html", "css", "JavaScript"],
     "git": "https://github.com/dpwl35/weather",
     "demo": "https://funny-salmiakki-15a0f6.netlify.app/",
-    "image" : "이미지"
+    "blog" : "https://ji35.tistory.com/",
+    "image" : "https://dpwl35.github.io/api/portfolio-img/img_01.png"
   }
 ]
