@@ -14,10 +14,10 @@
     "title": "Portfolio",
     "description": "React.js를 이용한 포트폴리오",
     "tags": ["html", "css", "JavaScript", "Illustrator", "Figma"],
-    "git": "https://github.com/dpwl35/weather",
-    "demo": "https://funny-salmiakki-15a0f6.netlify.app/",
+    "git": "https://github.com/dpwl35/react-portfolio",
+    "demo": "https://dpwl35.github.io/",
     "blog" : "https://ji35.tistory.com/109",
-    "image" : "https://dpwl35.github.io/api/portfolio-img/img_01.png"
+    "image" : "https://dpwl35.github.io/api/portfolio-img/img_02.png"
   },
   {
     "id": 2,
