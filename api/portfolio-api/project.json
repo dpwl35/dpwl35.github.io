@@ -3,7 +3,7 @@
     "id": 0,
     "title": "Portfolio",
     "description": "React를 이용한 포트폴리오",
-    "tags": ["THML", "CSS", "React", "Figma","matter.js"],
+    "tags": ["THML", "CSS", "React", "Figma","matter.js", "framer-motion"],
     "git": "https://github.com/dpwl35/react-portfolio",
     "demo": "https://dpwl35.github.io/",
     "blog" : "https://ji35.tistory.com/109",
