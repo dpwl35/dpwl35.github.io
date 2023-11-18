@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.be5dc4f8.css",
-    "main.js": "/static/js/main.b5271720.js",
+    "main.css": "/static/css/main.5825608b.css",
+    "main.js": "/static/js/main.f53e31b6.js",
     "static/media/SpoqaHanSansNeo-Light.woff": "/static/media/SpoqaHanSansNeo-Light.1cb73b3acae88adbdd59.woff",
     "static/media/SpoqaHanSansNeo-Regular.woff2": "/static/media/SpoqaHanSansNeo-Regular.452bf1579d6a73fbaffc.woff2",
     "static/media/bg_dots.png": "/static/media/bg_dots.e537011a2dbd98357b7d.png",
+    "static/media/img_00.png": "/static/media/img_00.c6d133097c2de2987478.png",
     "static/media/PPMori-SemiBold.otf": "/static/media/PPMori-SemiBold.336abfe2da355e4fa8dd.otf",
     "static/media/PPMori-Regular.otf": "/static/media/PPMori-Regular.e647e964441593fd7fdf.otf",
     "static/media/LibreFranklin-Black.ttf": "/static/media/LibreFranklin-Black.85623b5ef689bdf672cf.ttf",
@@ -35,11 +36,11 @@
     "static/media/check.svg": "/static/media/check.328897f7618b15821ca5.svg",
     "static/media/arrow.svg": "/static/media/arrow.966ab30972004b25537c.svg",
     "static/media/plane_2.svg": "/static/media/plane_2.90c6196eb0d4f3e2c22746bc19e59970.svg",
-    "main.be5dc4f8.css.map": "/static/css/main.be5dc4f8.css.map",
-    "main.b5271720.js.map": "/static/js/main.b5271720.js.map"
+    "main.5825608b.css.map": "/static/css/main.5825608b.css.map",
+    "main.f53e31b6.js.map": "/static/js/main.f53e31b6.js.map"
   },
   "entrypoints": [
-    "static/css/main.be5dc4f8.css",
-    "static/js/main.b5271720.js"
+    "static/css/main.5825608b.css",
+    "static/js/main.f53e31b6.js"
   ]
 }
