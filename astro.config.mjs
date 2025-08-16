@@ -11,9 +11,10 @@ export default defineConfig({
         {
           icon: "github",
           label: "GitHub",
-          href: "https://github.com/dpwl35/dpwl35.github.io",
+          href: "https://github.com/dpwl35",
         },
       ],
     }),
   ],
+  site: "https://dpwl35.github.io",
 });
