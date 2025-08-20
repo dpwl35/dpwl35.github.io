@@ -1,6 +1,6 @@
 ---
-title: HTTP의 시대
-description: HTTP 웹 기본 지식
+title: 인터넷 네트워크
+description: 인터넷 네트워크, URI와 웹 브라우저 요청 흐름
 ---
 
 ## 인터넷 네트워크
