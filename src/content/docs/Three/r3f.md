@@ -1,11 +1,14 @@
 ---
 title: r3f 시작하기
-description: A reference page in my new Starlight docs site.
+description: r3f 시작하기
 ---
 
-Reference pages are ideal for outlining how things work in terse and clear terms.
-Less concerned with telling a story or addressing a specific use case, they should give a comprehensive outline of what you're documenting.
+## gltfjsx
 
-## Further reading
+- gltf를 선언적이고 재사용 가능한 react-three-fibeer JSX 컴포넌트로 변환시켜주는 도구
 
-- Read [about reference](https://diataxis.fr/reference/) in the Diátaxis framework
+## gltfjsx 장점
+
+- 쉬운 콘텐츠 수정 및 재사용
+- 효율적인 그래프 최적화
+- 압축 옵션 제공
