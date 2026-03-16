@@ -59,3 +59,39 @@ line.stroke({
 });
 app.stage.addChild(line);
 ```
+
+#### Animation
+
+deltaTime : 이전 프레임과 현재 프레임 사이의 시간 차이  
+기기마다 FPS(초당 프레임) 가 다르기 때문에 Delta Time을 사용하여 프레임 속도(FPS)에 관계없이 동일한 속도로 움직이도록 만들어준다.
+
+```javascript
+app.ticker.add((delta) => {
+  bunny.x += 2 * delta.deltaTime;
+  bunny.rotation += delta.deltaTime * 0.1;
+  if (bunny.x > app.screen.width) {
+    bunny.x = 0;
+  }
+});
+```
+
+#### Group
+
+그룹으로 묶기
+
+```javascript
+const container = new Container();
+app.stage.addChild(container);
+container.x = 200;
+container.y = 200;
+
+//생략
+const rect = new Graphics();
+rect.rect(0, 0, 50, 50);
+rect.fill();
+container.addChild(rect);
+
+app.ticker.add((delta) => {
+  container.rotation += delta.deltaTime * 0.01;
+});
+```
