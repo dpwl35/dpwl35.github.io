@@ -95,3 +95,53 @@ app.ticker.add((delta) => {
   container.rotation += delta.deltaTime * 0.01;
 });
 ```
+
+#### Interaction
+
+pointertap : 모바일 / pc 모두 동작
+
+```javascript
+const texture = await Assets.load('https://pixijs.com/assets/bunny.png');
+const bunny = new Sprite(texture);
+app.stage.addChild(bunny);
+bunny.anchor.set(0.5);
+bunny.x = app.screen.width / 2;
+bunny.y = app.screen.height / 2;
+
+bunny.eventMode = 'static'; //이벤트모드 설정
+bunny.cursor = 'pointer'; //포인터 변경
+
+let n = 1;
+
+bunny.on('pointertap', () => {
+  bunny.scale.set(++n);
+});
+```
+
+#### Filter
+
+필터 적용하기
+
+```javascript
+import {
+  Application,
+  Assets,
+  Sprite,
+  BlurFilter,
+  ColorMatrixFilter,
+  DisplacementFilter,
+  AlphaFilter,
+  NoiseFilter,
+} from 'pixi.js';
+
+//생략
+
+const filters = [
+  new BlurFilter({ strength: 5 }),
+  colorMatrixFilter,
+  new DisplacementFilter(filterSprite),
+  new AlphaFilter({ alpha: 0.3 }),
+  new NoiseFilter({ noise: 0.5 }),
+];
+bunny.filters = filters[2];
+```
