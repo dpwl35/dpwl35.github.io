@@ -145,3 +145,88 @@ const filters = [
 ];
 bunny.filters = filters[2];
 ```
+
+#### Sprite Animation
+
+클릭시 애니메이션 재생
+
+```javascript
+const texture = await Assets.load('/images/Attack.png');
+
+const frames = [];
+
+for (let i = 0; i < 5; i++) {
+  const frame = new Texture({
+    source: texture,
+    frame: new Rectangle(i * 128, 0, 128, 128),
+  });
+  frames.push(frame);
+}
+const zombie = new AnimatedSprite(frames);
+app.stage.addChild(zombie);
+
+zombie.animationSpeed = 0.2;
+zombie.loop = false; // 한번만 플레이
+zombie.eventMode = 'static';
+zombie.cursor = 'pointer';
+zombie.on('pointertap', () => {
+  // 클릭하면 플레이
+  zombie.gotoAndPlay(0); // 첫번째 프레임부터 플레이
+});
+zombie.onComplete = () => {
+  // 애니메이션 재싱이 끝나면 처음으로
+  zombie.gotoAndStop(0);
+};
+```
+
+#### Sound
+
+클릭시 사운드 재생
+
+```javascript
+const punchSound = new Audio('/sounds/punch.mp3');
+
+zombie.on('pointertap', () => {
+  zombie.gotoAndPlay(0);
+  punchSound.currentTime = 0;
+  punchSound.play();
+});
+zombie.onComplete = () => {
+  zombie.gotoAndStop(0);
+};
+```
+
+#### Tiling Sprite (Background)
+
+배경 이미지 채우기
+
+```javascript
+const bgTexture = await Assets.load('/images/ruins2.png');
+const bgSprite = new TilingSprite({
+  texture: bgTexture,
+  width: app.screen.width,
+  height: app.screen.height,
+});
+app.stage.addChild(bgSprite);
+// bgSprite.tileScale.set(0.1);
+
+function adjustTileScale() {
+  //이미지 높이 = 브라우저 높이
+  const scale = window.innerHeight / bgTexture.height;
+  bgSprite.tileScale.set(scale);
+  bgSprite.width = window.innerWidth;
+  bgSprite.height = window.innerHeight;
+
+  zombie.y = app.screen.height * 0.52 - zombie.height;
+}
+
+adjustTileScale();
+
+app.ticker.add((delta) => {
+  bgSprite.tilePosition.x -= 2 * delta.deltaTime;
+});
+```
+
+#### 빌드하기
+
+npm run build
