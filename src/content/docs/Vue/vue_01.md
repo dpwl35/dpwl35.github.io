@@ -90,3 +90,57 @@ export default {
 };
 </script>
 ```
+
+## Component
+
+컴포넌트.vue 파일 이름은 2단어 이상으로 작명
+2단어 이상 작명하기 싫으면 싫으면 package.json 파일 열어서 "rules" 라는 항목에 추가
+
+```
+"rules": {
+   "vue/multi-word-component-names": "off"
+}
+```
+
+```vue
+<template>
+  <div class="discount">
+    <h4>지금 결제하면 20% 할인</h4>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'DiscountBanner',
+};
+</script>
+```
+
+## props
+
+```vue
+(App.vue)
+<template>
+  <Modal :원룸="원룸들[0]" />
+  <Modal :원룸="원룸들[1]" />
+  <Modal :원룸="원룸들[2]" />
+</template>
+
+<script>
+import data from './assets/data.js';
+import Card from './CardWrap.vue';
+
+export default {
+  name: 'App',
+  data() {
+    return {
+      원룸들 : data,
+      모달창열림 : false,
+      누름 : 0,
+   },
+  components: {
+    Card : Card,
+  }
+}
+</script>
+```
